@@ -1,0 +1,48 @@
+.authors {
+  padding: 30px;
+}
+
+.authors-search-wrapper {
+  margin-bottom: 30px;
+}
+.authors-search-wrapper input {
+  width: 100%;
+  height: 50px;
+  border: 2px solid gray;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 21px;
+}
+
+.authors-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.author {
+  width: 400px;
+  height: 365px;
+  border: 1px solid gray;
+  padding: 15px;
+  margin: 5px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  background-color: white;
+  text-align: center;
+}
+
+.author-img {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 7px;
+}
+
+
+.author-name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+    padding-top: 4px;
+    color: crimson;
+}

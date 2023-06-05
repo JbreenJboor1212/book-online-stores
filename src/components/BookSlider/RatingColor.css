@@ -1,0 +1,25 @@
+.rating i {
+  color: orange;
+  font-weight: 500;
+  margin: 0 3px;
+  font-size: 21px;
+}
+
+.rating span:first-child {
+  font-weight: 500;
+  margin: 0 12px;
+  color: Gray;
+  
+}
+
+.rating span:last-child {
+color: gray;
+font-size: 15px;
+font-weight: 600;
+}
+
+.rating-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

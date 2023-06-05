@@ -1,0 +1,17 @@
+.about {
+  height: calc(100vh - 25px);
+  padding: 40px;
+}
+
+.about h1 {
+  font-size: 40px;
+  border-bottom: 3px solid gray;
+  color: gray;
+  width: max-content;
+}
+
+.about p:nth-child(2) {
+  margin: 15px 0;
+  font-size: 21px;
+  color: gray;
+}
